@@ -1,0 +1,10 @@
+aws_region        = "us-east-1"
+project_name      = "insurance-policy-portal"
+db_name           = "insurance"
+db_username       = "portaladmin"
+db_password       = "REPLACE_WITH_A_UNIQUE_STRONG_PASSWORD"
+db_instance_class = "db.t3.micro"
+app_image_tag     = "latest"
+desired_count     = 1
+min_capacity      = 1
+max_capacity      = 4
